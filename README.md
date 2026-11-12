@@ -25,13 +25,14 @@ garment_productivity-ml/
 -   notebooks/
         -01_garment_data_audit.ipynb
         -02_garment_preprocessing_baseline.ipynb
+        -03_garment_model_comparison.ipynb
 -   reports/
 -   src/
 -   .gitignore
 -   README.md
 -   requirements.txt
 
-The 01 notebook contains the data audit. The 02 notebook contains the data cleaning, preprocessing setup, train/test split and baseline model.
+The 01 notebook contains the data audit. The 02 notebook contains the data cleaning, preprocessing setup, train/test split and baseline model. The 03 trains and compares the learned regression models and analyses their results.
 
 
 Setup to run:
@@ -54,5 +55,6 @@ Place the dataset file garments_worker_productivity.csv into the data folder.
 Thne run the notebooks in this order:
 1.notebooks/01_garment_data_audit.ipynb
 2.notebooks/02_garment_preprocessing_baseline.ipynb
+3.notebooks/03_garment_model_comparison.ipynb
 
 Run each notebook from top to bottom. The results are discussed under code blocks and everyhting is clearly labelled.
